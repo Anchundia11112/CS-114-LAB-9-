@@ -1,0 +1,25 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class GUIPanel extends JPanel{
+
+	private JLabel mylabel;
+	private JTextField fieldText;
+	
+	public GUIPanel(String labelText, int fieldLabel){
+		
+		mylabel = new JLabel(labelText);
+		fieldText = new JTextField(fieldLabel);
+		
+		add(mylabel);
+		add(fieldText);
+		
+		setPreferredSize (new Dimension(700,40));
+		setBackground (Color.CYAN);
+		
+	}
+	
+	
+	
+}

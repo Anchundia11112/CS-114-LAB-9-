@@ -1,0 +1,12 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class GUIPanel extends JPanel{
+
+	private JLabel mylabel;
+	private JTextField fieldText;
+	
+	
+	
+}
